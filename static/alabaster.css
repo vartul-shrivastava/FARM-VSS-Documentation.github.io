@@ -349,9 +349,6 @@ pre, tt, code {
     display: block;
 }
 
-img.screenshot {
-}
-
 tt.descname, tt.descclassname, code.descname, code.descclassname {
     font-size: 0.95em;
 }
@@ -516,7 +513,7 @@ a:hover tt, a:hover code {
 
     div.documentwrapper {
         float: none;
-        background: #fff;
+        background: transparent;
         margin-left: 0;
         margin-top: 0;
         margin-right: 0;
