@@ -526,16 +526,16 @@ a:hover tt, a:hover code {
         margin: 50px -30px -20px -30px;
         padding: 10px 20px;
         background: wheat;
-        color: #FFF;
+        color: #05193b;
     }
 
     div.sphinxsidebar h3, div.sphinxsidebar h4, div.sphinxsidebar p,
     div.sphinxsidebar h3 a {
-        color: #fff;
+        color: #05193b;
     }
 
     div.sphinxsidebar a {
-        color: #AAA;
+        color: #05193b;
     }
 
     div.sphinxsidebar p.logo {
