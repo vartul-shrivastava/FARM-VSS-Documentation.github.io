@@ -58,6 +58,7 @@
 <p>Ollama is a local AI model management tool designed to facilitate the efficient use of AI models for a variety of tasks. In FARM-VSS, Ollama enables the summarization of complex association rules, making them easier to interpret and apply. By integrating Ollama, users can leverage advanced AI capabilities locally, ensuring data privacy and customization.</p>
 </section>
 <section id="installation">
+  
 <h2><a class="toc-backref" href="#id3" role="doc-backlink">Installation</a><a class="headerlink" href="#installation" title="Link to this heading"></a></h2>
 <section id="installing-ollama">
 <h3>Installing Ollama<a class="headerlink" href="#installing-ollama" title="Link to this heading"></a></h3>
@@ -91,12 +92,12 @@
 </li>
 <li><p><strong>Install a Model</strong></p>
 <p>Install a desired model using the following command:</p>
-<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>ollama<span class="w"> </span>install<span class="w"> </span>&lt;model-name&gt;
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>ollama<span class="w"> </span>pull<span class="w"> </span>&lt;model-name&gt;
 </pre></div>
 </div>
 <p>Replace <cite>&lt;model-name&gt;</cite> with the name of the model you wish to install.</p>
 <p><strong>Example:</strong></p>
-<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>ollama<span class="w"> </span>install<span class="w"> </span>llama2
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>ollama<span class="w"> </span>pull<span class="w"> </span>llama3:latest
 </pre></div>
 </div>
 </li>
